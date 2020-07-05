@@ -1,6 +1,7 @@
-package com.colamoon.app.api.sample.constant;
+package keon_test.demo.sample.constant;
 
 public enum SampleStatus {
+
     INIT(0) {
         @Override
         public String shout() {

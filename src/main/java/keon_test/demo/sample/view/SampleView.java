@@ -1,9 +1,9 @@
-package com.colamoon.app.api.sample.view;
+package keon_test.demo.sample.view;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
-import com.colamoon.app.api.common.model.BaseView;
-import com.colamoon.app.api.sample.constant.SampleStatus;
-import com.colamoon.app.api.sample.model.Sample;
+import keon_test.demo.common.model.BaseView;
+import keon_test.demo.sample.constant.SampleStatus;
+import keon_test.demo.sample.model.Sample;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;

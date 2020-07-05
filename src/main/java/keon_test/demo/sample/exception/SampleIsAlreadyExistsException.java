@@ -1,11 +1,10 @@
-package com.colamoon.app.api.sample.exception;
+package keon_test.demo.sample.exception;
 
-import com.colamoon.app.api.common.exception.ColaException;
-import com.colamoon.app.api.common.exception.ErrorMessageCode;
+import keon_test.demo.common.exception.KeonException;
+import keon_test.demo.common.exception.ErrorMessageCode;
 import org.springframework.http.HttpStatus;
 
-public class SampleIsAlreadyExistsException extends ColaException {
-
+public class SampleIsAlreadyExistsException extends KeonException {
 
     public SampleIsAlreadyExistsException() {
         super("SampleIsAlreadyExistsException", ErrorMessageCode.SAMPLE_IS_ALREADY_EXISTS);

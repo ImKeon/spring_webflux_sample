@@ -1,6 +1,6 @@
-package com.colamoon.app.api.sample;
+package keon_test.demo.sample;
 
-import com.colamoon.app.api.sample.view.SampleView;
+import keon_test.demo.sample.view.SampleView;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -91,4 +91,5 @@ public class SampleHandler {
                 .switchIfEmpty(notFound().build());
 
     }
+
 }

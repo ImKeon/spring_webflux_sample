@@ -1,9 +1,7 @@
-package com.colamoon.app.api.sample;
+package keon_test.demo.sample;
 
-import com.colamoon.app.api.common.model.ActiveType;
-import com.colamoon.app.api.sample.exception.SampleNotFoundException;
-import com.colamoon.app.api.sample.model.Sample;
-import com.colamoon.app.api.sample.view.SampleView;
+import keon_test.demo.common.model.ActiveType;
+import keon_test.demo.sample.exception.SampleNotFoundException;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
@@ -12,6 +10,9 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+
+import keon_test.demo.sample.model.Sample;
+import keon_test.demo.sample.view.SampleView;
 
 import java.time.LocalDateTime;
 import java.time.ZoneOffset;
@@ -90,6 +91,5 @@ public class SampleService {
 
         return sample;
     }
-
 
 }

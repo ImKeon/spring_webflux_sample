@@ -1,9 +1,7 @@
-package com.colamoon.app.api.sample.model;
+package keon_test.demo.sample.model;
 
-import com.colamoon.app.api.common.model.BaseEntity;
-import com.colamoon.app.api.sample.constant.SampleStatus;
-import com.colamoon.app.api.common.model.BaseEntity;
-import com.colamoon.app.api.sample.constant.SampleStatus;
+import keon_test.demo.common.model.BaseEntity;
+import keon_test.demo.sample.constant.SampleStatus;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -23,6 +21,5 @@ public class Sample extends BaseEntity {
     @Column(columnDefinition = "TEXT", nullable = false)
     private String contents;
     private SampleStatus status = SampleStatus.INIT;
-
 
 }
